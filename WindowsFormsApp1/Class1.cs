@@ -37,7 +37,6 @@ namespace WindowsFormsApp1
             return sum;
         }
 
-        // не работает
         public List<int> Task4(int numeral)
         {
             List<int> arrayList = new List<int>();
@@ -45,11 +44,11 @@ namespace WindowsFormsApp1
             Random random = new Random();
             for (int i = 1; i < array.Length; i++)
             {
-                array[i]= random.Next(1, numeral);
-                arrayList.Add((array[i] + (numeral - array[i + 1])) / 4);//доделать
-
+                array[i] = random.Next(1, numeral);
+                arrayList.Add((array[i] + Math.Abs(array[array.Length - 1 - i + 1])) / 4);
             }
             return arrayList;
+
         }
 
         /// <summary>

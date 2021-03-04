@@ -57,10 +57,11 @@ namespace WindowsFormsApp1
         {
             int sizeArray = Convert.ToInt32(textBox7.Text);
             int[] mas = class1.Task4(sizeArray).ToArray();
+            listBox2.Items.Clear();
             for (int i = 1; i < mas.Length; i++)
             {
-                listBox1.Items.Add(mas[i].ToString());
-               // textBox8.Text += mas[i].ToString() + " ";
+                listBox2.Items.Add(mas[i].ToString());
+
             }
 
         }

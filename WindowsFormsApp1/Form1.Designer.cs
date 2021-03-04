@@ -51,10 +51,10 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
@@ -66,7 +66,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button9 = new System.Windows.Forms.Button();
-            this.listBox2 = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -93,13 +92,13 @@
             // файлToolStripMenuItem
             // 
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(59, 26);
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
             this.файлToolStripMenuItem.Text = "Файл";
             // 
             // справкаToolStripMenuItem
             // 
             this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(81, 26);
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.справкаToolStripMenuItem.Text = "Справка";
             // 
             // tabControl1
@@ -312,7 +311,6 @@
             this.tabPage4.Controls.Add(this.label7);
             this.tabPage4.Controls.Add(this.button4);
             this.tabPage4.Controls.Add(this.textBox7);
-            this.tabPage4.Controls.Add(this.textBox8);
             this.tabPage4.Location = new System.Drawing.Point(4, 25);
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
@@ -321,10 +319,19 @@
             this.tabPage4.Text = "Задание 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(28, 42);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(141, 148);
+            this.listBox2.TabIndex = 12;
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(378, 127);
+            this.label7.Location = new System.Drawing.Point(228, 77);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(46, 17);
@@ -333,7 +340,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(363, 200);
+            this.button4.Location = new System.Drawing.Point(231, 156);
             this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(193, 34);
@@ -344,19 +351,11 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(381, 148);
+            this.textBox7.Location = new System.Drawing.Point(231, 98);
             this.textBox7.Margin = new System.Windows.Forms.Padding(4);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(192, 22);
             this.textBox7.TabIndex = 9;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(293, 64);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(192, 22);
-            this.textBox8.TabIndex = 7;
             // 
             // tabPage5
             // 
@@ -473,15 +472,6 @@
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.ItemHeight = 16;
-            this.listBox2.Location = new System.Drawing.Point(18, 31);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(120, 84);
-            this.listBox2.TabIndex = 12;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -546,7 +536,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
