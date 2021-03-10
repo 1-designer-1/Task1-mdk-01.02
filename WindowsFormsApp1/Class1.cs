@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
 
             for (int i = 1; i < numberTask3; i++)
             {
-                n += 2 * i;
+                n += 2 + i;
                 for (int j = 1; j < numberTask3; j += 2)
                 {
                     s += (3 + j) / n;
