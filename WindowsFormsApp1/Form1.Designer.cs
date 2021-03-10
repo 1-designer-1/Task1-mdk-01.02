@@ -112,6 +112,7 @@
             this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
             this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.справкаToolStripMenuItem.Text = "Справка";
+            this.справкаToolStripMenuItem.Click += new System.EventHandler(this.справкаToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -219,7 +220,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(28, 125);
+            this.button2.Location = new System.Drawing.Point(29, 117);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(145, 28);
             this.button2.TabIndex = 4;
@@ -229,7 +230,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(214, 80);
+            this.textBox4.Location = new System.Drawing.Point(214, 67);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
             this.textBox4.Size = new System.Drawing.Size(145, 20);
@@ -237,7 +238,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(28, 80);
+            this.textBox3.Location = new System.Drawing.Point(29, 67);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(145, 20);
             this.textBox3.TabIndex = 2;
@@ -315,16 +316,16 @@
             // listBox2
             // 
             this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(21, 34);
+            this.listBox2.Location = new System.Drawing.Point(22, 8);
             this.listBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(107, 121);
+            this.listBox2.Size = new System.Drawing.Size(106, 186);
             this.listBox2.TabIndex = 12;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(170, 50);
+            this.label7.Location = new System.Drawing.Point(170, 46);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(99, 13);
             this.label7.TabIndex = 11;
@@ -332,9 +333,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(173, 105);
+            this.button4.Location = new System.Drawing.Point(173, 103);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(145, 28);
+            this.button4.Size = new System.Drawing.Size(145, 39);
             this.button4.TabIndex = 10;
             this.button4.Text = "Результат";
             this.button4.UseVisualStyleBackColor = true;
@@ -342,7 +343,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(173, 66);
+            this.textBox7.Location = new System.Drawing.Point(173, 62);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(145, 20);
             this.textBox7.TabIndex = 9;
@@ -494,6 +495,7 @@
             this.ClientSize = new System.Drawing.Size(442, 258);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

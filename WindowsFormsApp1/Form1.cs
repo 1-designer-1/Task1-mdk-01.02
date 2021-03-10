@@ -65,5 +65,11 @@ namespace WindowsFormsApp1
             }
 
         }
+
+        private void справкаToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Задание выполнил: Серегин Денис\n " +
+                "Вариант 17", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
